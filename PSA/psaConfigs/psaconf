@@ -1,0 +1,117 @@
+# A more detailed discussion of the options in this file
+# can be found in the Detailed Installation Guide on
+# the DansGuardian web site.
+
+# The default settings below are aimed at early teens.
+# You may wish to reduce or increase this.
+
+# ICRA is a new version of RSAC
+# 0 = none  1 = some
+ICRAchat = 0
+ICRAmoderatedchat = 0
+ICRAlanguagesexual = 0
+ICRAlanguageprofanity = 0
+ICRAlanguagemildexpletives = 0
+ICRAnuditygraphic = 0
+ICRAnuditymalegraphic = 0
+ICRAnudityfemalegraphic = 0
+ICRAnuditytopless = 0
+ICRAnuditybottoms = 0
+ICRAnuditysexualacts = 0
+ICRAnudityobscuredsexualacts = 0
+ICRAnuditysexualtouching = 0
+ICRAnuditykissing = 0
+ICRAnudityartistic =0
+ICRAnudityeducational = 0
+ICRAnuditymedical = 0
+ICRAdrugstobacco = 0
+ICRAdrugsalcohol = 0
+ICRAdrugsuse = 0
+ICRAgambling = 0
+ICRAweaponuse = 0
+ICRAintolerance = 0
+ICRAbadexample = 0
+ICRApgmaterial = 0
+ICRAviolencerape = 0
+ICRAviolencetohumans = 0
+ICRAviolencetoanimals = 0
+ICRAviolencetofantasy = 0
+ICRAviolencekillinghumans = 0
+ICRAviolencekillinganimals = 0
+ICRAviolencekillingfantasy = 0
+ICRAviolenceinjuryhumans = 0
+ICRAviolenceinjuryanimals = 0
+ICRAviolenceinjuryfantasy = 0
+ICRAviolenceartisitic = 0
+ICRAviolenceeducational = 0
+ICRAviolencemedical = 0
+ICRAviolencesports = 0
+ICRAviolenceobjects = 0
+
+# RSAC
+# 0 = none  2 = default  4 = wanton and gratuitous
+RSACviolence = 0
+RSACsex = 0
+RSACnudity = 0
+RSAClanguage = 0
+
+
+# evaluWEB
+# 0 = U  1 = PG  2 = 18
+evaluWEBrating = 0
+
+
+# CyberNOT
+# 0 = none  8 = lots
+CyberNOTsex = 0
+CyberNOTother = 0
+
+
+# SafeSurf
+# 0 = full filtering  9 = wanton and gratuitous
+SafeSurfprofanity = 0
+SafeSurfheterosexualthemes = 0
+SafeSurfhomosexualthemes = 0
+SafeSurfnudity = 0
+SafeSurfviolence = 0
+SafeSurfsexviolenceandprofanity = 0
+SafeSurfintolerance = 0
+SafeSurfdruguse = )
+SafeSurfotheradultthemes = 0
+SafeSurfgambling = 0
+# 1 = All ages  3 = early teens  9 = explicitly for adults
+SafeSurfagerange = 0
+
+
+# Weburbia
+# 0 = U  1 = PG  2 = 18
+Weburbiarating = 0
+
+
+#Vancouver Webpages - low is good high is bad
+Vancouvermulticulturalism = 0  # -3 to 2
+Vancouvereducationalcontent = 0  # -3 to 1
+Vancouverenvironmentalawareness = 0  # -3 to 1
+Vancouvertolerance = 0  # -2 to 4
+Vancouverviolence = 0  # 0 to 5
+Vancouversex = 0  # 0 to 7
+Vancouverprofanity = 0  # 0 to 4
+Vancouversafety = 0  # -2 to 2
+Vancouvercanadiancontent = 0  # -2 to 0
+Vancouvercommercialcontent = 0  # 0 to 3
+Vancouvergambling = -1  # -1 to 3
+
+
+# Korean PICS services
+# Thanks to Richard Lee for outlining tag formats
+
+# ICEC - service.icec.or.kr
+ICECrating = 0 # 0 to 1
+
+# SafeNet - www.safenet.ne.kr
+SafeNetnudity = 0  # 0 to 4
+SafeNetsex = 0  # 0 to 4
+SafeNetviolence = 0  # 0 to 4
+SafeNetlanguage = 0  # 0 to 4
+SafeNetgambling = 0  # 0 to 1
+SafeNetalcoholtobacco = 0 # 0 to 1

@@ -1,0 +1,26 @@
+{
+        "name": "user_profile_type",
+        "user_token": "",
+        "profile_type": "AD",
+
+        "PSASet": [
+
+                {
+                        "id": "dansguardian",
+                        "security_controls": [
+
+                                {
+                                        "imgName": "dansguardian.img",
+                                        "conf_id":"dansguardian_user8"
+                                }
+
+                        ] 
+
+                }
+
+        ], 
+
+        "ingress_flow": ["dansguardian"],
+        "egress_flow": ["dansguardian"]
+
+}
